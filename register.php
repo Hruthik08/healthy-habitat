@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Healthy Habitat</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f1f1f1; 
+            text-align: center; 
+            padding: 40px; 
+        }
+        h2 { 
+            color: #2c3e50; 
+        }
+        .options a {
+            display: block;
+            margin: 15px auto;
+            padding: 10px 20px;
+            background-color: #27ae60;
+            color: white;
+            text-decoration: none;
+            width: 250px;
+            border-radius: 6px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+        .options a:hover {
+            background-color: #219150;
+        }
+    </style>
+</head>
+<body>
+    <h2>Register As</h2>
+    <div class="options">
+        <a href="add_resident.php">👤 User</a>
+        <a href="add_business.php">🏢 Business</a>
+        <a href="add_product.php">📦 Product</a>
+    </div>
+</body>
+</html>
